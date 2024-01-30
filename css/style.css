@@ -1,0 +1,49 @@
+body {
+    background: #EFF0F3 !important;
+}
+
+.container {
+    margin-top: 50px;  
+}
+
+form {
+    background: #2FCC9A;
+    border: 2px solid #228e7c;
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#task {
+    width: 60%;
+    float: left;
+    margin-right: 5%;
+    color: #228e7c;
+}
+
+.to-do {
+    display: flex;
+}
+
+li {
+    width: 500px;
+    min-height: 70px;
+    background: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px silver;
+    padding: 0 15px 0 0;
+}
+
+.task_item {
+    margin-left: 20px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    width: 370px;
+}
+
